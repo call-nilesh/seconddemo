@@ -12,6 +12,7 @@ public class TestService {
     public ArrayList<Customer> getHelloWorld()
     {
         log.info("Inside Service ");
+        log.info("getting customer data ");
         ArrayList al=new ArrayList();
         al.add(new Customer(15,"nilesh","hinjawadi"));
         al.add(new Customer(15,"Nitin","Pune"));
